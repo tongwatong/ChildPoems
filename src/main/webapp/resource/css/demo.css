@@ -1,0 +1,35 @@
+#divContainer {
+    width: 614px;
+    height: 500px;
+    border: 1px solid #1dc7ff;
+    margin: 8rem auto auto auto
+}
+
+#divLeft {
+    width: 100px;
+    /*border: 1px solid #000;*/
+    float: left;
+    text-align: right;
+}
+
+#divRight {
+    width: 500px;
+    /*border: 1px solid #000;*/
+    float: left;
+}
+
+.text {
+    width: 410px;
+    height: 30px;
+}
+
+.divContent {
+    margin: 15px 0px 0px 30px;
+}
+
+.div-title {
+    /*border: 1px solid #000;*/
+    height: 36px;
+    margin: 15px 0px 0px 15px;
+    line-height: 36px;
+}
