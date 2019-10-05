@@ -13,11 +13,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by Administrator on 2019/8/23.
+ *
+ * @author Administrator
+ * @date 2019/8/23
  */
 @WebServlet("/user_servlet")
 public class UserServlet extends HttpServlet {
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
 
@@ -27,6 +30,7 @@ public class UserServlet extends HttpServlet {
 
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         System.out.println("doget success");

@@ -6,7 +6,197 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bd485e-f694-4405-b97d-ef8c7bf39602" name="Default" comment="" />
+    <list default="true" id="93bd485e-f694-4405-b97d-ef8c7bf39602" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ArticleAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addArticle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/ISSUE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/dev/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/01-getstart/01-demo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/01-getstart/02-use-module.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/01-getstart/03-sperate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/01-getstart/04-multi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/02-content/01-set-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/02-content/02-get-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/02-content/03-use-textarea.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/02-content/04-get-json.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/01-menu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/02-debug.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/03-onchange.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/04-z-index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/05-lang.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/06-paste.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/07-linkImgCallback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/08-linkCheck.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/09-onfocus.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/10-onblur.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/11-linkImgCheck.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/12-colors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/13-emot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/03-config/14-font-name.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/04-uploadimg/01-show-tab.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/04-uploadimg/02-base64.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/04-uploadimg/03-upload-config.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/04-uploadimg/04-qiniu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/01-全屏-预览-查看源码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/02-上传附件.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/03-markdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/04-xss.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/05-react.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/06-vue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/07-ng.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/05-other/08-api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/docs/usage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-react/src/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/dev-client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/dev-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/src/components/Editor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/src/components/Hello.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/in-vue/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-amd-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-amd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-css-reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-emot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-fullscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-get-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-getJSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-lang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-menus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-mult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-onblur.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-onchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-onfocus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-paste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-set-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-sperate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/demo/test-uploadimg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/icomoon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/example/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/release/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/command/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/editor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/editor/upload/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/editor/upload/upload-img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/backColor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/bold/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/code/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/droplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/emoticon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/fontName/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/fontSize/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/foreColor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/head/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/img/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/italic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/justify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/menu-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/quote/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/redo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/strikethrough/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/underline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/undo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/menus/video/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/selection/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/text/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/util/dom-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/util/paste-handle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/util/poly-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/util/replace-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/js/util/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/droplist.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/icon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/menus.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor-3.1.1/src/less/text.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/WEB-INF/classes/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/WEB-INF/classes/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/test1/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,101 +205,169 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.38973537">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="93" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/model/Article.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="7" column="23" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleAction.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+                  <folding>
+                    <element signature="method#findUserByLoginNum#0;class#UserDao#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="722">
+                  <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/addArticle.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="665">
+                  <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1026">
+                  <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+                  <folding>
+                    <element signature="method#getArticleList#0;class#ArticleServlet#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/dao/ArticleDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+                  <folding>
+                    <element signature="method#findArticleById#0;class#ArticleDao#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,7 +378,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resource/css/reset.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resource/js/common.js" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
@@ -128,19 +385,23 @@
         <option value="$PROJECT_DIR$/src/main/webapp/content/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CurrentCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/test.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/common/taglibs.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ArticleAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addAriticle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addArticle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java" />
       </list>
     </option>
   </component>
@@ -165,58 +426,110 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1460" />
-    <option name="height" value="880" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChildPoems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChildPoems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -228,6 +541,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\123\Documents\GitHub\ChildPoems\src\main\webapp\resource\plugin" />
+      <recent name="C:\Users\123\Documents\GitHub\ChildPoems\src\main\webapp\resource" />
       <recent name="D:\program\test1\src\main\webapp" />
       <recent name="D:\program\test1\src\main\webapp\content" />
     </key>
@@ -235,6 +550,7 @@
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\123\Documents\GitHub\ChildPoems\src\main\webapp\resource\plugin" />
       <recent name="D:\program\test1\src\main\webapp\resource\plugin" />
       <recent name="D:\program\test1\src\main\webapp" />
     </key>
@@ -252,21 +568,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -326,6 +627,12 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -546,16 +853,28 @@
       <workItem from="1567669419025" duration="471000" />
       <workItem from="1567669923796" duration="132000" />
       <workItem from="1567670618899" duration="490000" />
+      <workItem from="1570015792870" duration="3983000" />
+      <workItem from="1570178255344" duration="22747000" />
+      <workItem from="1570260316407" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104460000" />
+    <option name="totallyTimeSpent" value="131330000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.41980475" visible="true" weight="0.15100671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41980475" visible="true" weight="0.16308725" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,24 +884,24 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info id="Web" order="8" sideWeight="0.58019525" side_tool="true" weight="0.31733525" />
       <window_info id="设计师" order="9" />
-      <window_info anchor="bottom" id="消息" />
-      <window_info anchor="bottom" id="运行" />
-      <window_info anchor="bottom" id="调试" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3281027" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32763532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4820917" weight="0.23430963" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48791945" weight="0.27635327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51790833" side_tool="true" weight="0.24289773" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32217574" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32905984" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49932885" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51208055" side_tool="true" weight="0.27635327" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21652421" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49530202" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="消息" order="15" />
+      <window_info anchor="bottom" id="运行" order="16" />
+      <window_info anchor="bottom" id="调试" order="17" weight="0.32954547" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -660,34 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/CurrentCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -717,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -738,66 +1022,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+        <state relative-caret-position="361">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="-551">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/plugin/wangEditor.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding>
+            <element signature="method#findUserByLoginNum#0;class#UserDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="190">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="722">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addArticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="method#findArticleById#0;class#ArticleDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ArticleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+          <folding>
+            <element signature="method#getArticleList#0;class#ArticleServlet#0" />
+          </folding>
         </state>
       </provider>
     </entry>

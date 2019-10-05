@@ -2,6 +2,7 @@ package servlet;
 
 import model.Article;
 import model.CurrentCount;
+import service.ArticleAction;
 import service.ArticleService;
 
 import javax.servlet.ServletException;
@@ -13,21 +14,38 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by Administrator on 2019/8/25.
+ *
+ * @author Administrator
+ * @date 2019/8/25
  */
 @WebServlet("/article_servlet")
 public class ArticleServlet extends HttpServlet {
     Article article = null;
     ArticleService articleService = null;
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
 
+//        String content = request.getParameter("articleContent");
+//        System.out.println(content);
+        System.out.println(ArticleAction.action);
+        String action = ArticleAction.action;
+//        System.out.println(action);
+
+        switch (action) {
+            case "article_list":
+                this.getArticleList(request, response);
+                break;
+            case "article_add":
+                this.getArticleAdd(request, response);
+                break;
+        }
 //        System.out.println("article_servlet success");
-        this.getArticleList(request, response);
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
@@ -36,15 +54,15 @@ public class ArticleServlet extends HttpServlet {
 
     public void getArticleList(HttpServletRequest request, HttpServletResponse response) {
         Integer count = 1;
-        String action = request.getParameter("action");
-        if (action != null) {
+        String flag = request.getParameter("flag");
+        if (flag != null) {
             Cookie articleCount = new Cookie("articleCount", count.toString());
             response.addCookie(articleCount);
             Cookie[] cookies = request.getCookies();
             for (Cookie foo : cookies) {
                 if ("articleCount".equals(foo.getName())) {
                     count = Integer.parseInt(foo.getValue());
-                    switch (action) {
+                    switch (flag) {
                         case "last":
                             count--;
                             response.addCookie(new Cookie("articleCount", count.toString()));
@@ -82,6 +100,27 @@ public class ArticleServlet extends HttpServlet {
             e.printStackTrace();
         }
 
+
+    }
+    public void getArticleAdd(HttpServletRequest request, HttpServletResponse response) {
+        String articleTitle = request.getParameter("articleTitle");
+        String articleWriter = request.getParameter("articleWriter");
+        String articleContent = request.getParameter("articleContent");
+        System.out.println(articleTitle);
+        System.out.println(articleWriter);
+
+        Article article = new Article();
+        article.setArticleTitle(articleTitle);
+        article.setArticleWriter(articleWriter);
+        article.setArticleContent(articleContent);
+
+        new ArticleService().addArticle(article);
+
+        try {
+            response.sendRedirect("index.jsp");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }

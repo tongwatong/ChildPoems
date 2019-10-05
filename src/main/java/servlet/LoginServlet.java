@@ -13,13 +13,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by Administrator on 2019/8/22.
+ *
+ * @author Administrator
+ * @date 2019/8/22
  */
 @WebServlet("/login_servlet")
 public class LoginServlet extends HttpServlet {
     User user = null;
     UserService userService = null;
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        System.out.println("dopost success");
 
@@ -61,6 +64,7 @@ public class LoginServlet extends HttpServlet {
          }
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        System.out.println("doget success");
 

@@ -15,4 +15,8 @@ public class ArticleService {
 
         return article;
     }
+    public void addArticle(Article article) {
+        ArticleDao articleDao = new ArticleDao();
+        articleDao.addArticle(article);
+    }
 }

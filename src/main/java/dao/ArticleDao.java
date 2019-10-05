@@ -42,4 +42,27 @@ public class ArticleDao {
 
         return articleReturn;
     }
+    public void addArticle(Article article) {
+        try {
+            connection = Utils.getConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        String sql = "insert into article(article_title, article_writer, article_content)" +
+                "values(?, ?, ?);";
+        try {
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, article.getArticleTitle());
+            preparedStatement.setString(2, article.getArticleWriter());
+            preparedStatement.setString(3, article.getArticleContent());
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            Utils.close(preparedStatement, connection);
+        }
+
+
+    }
 }
