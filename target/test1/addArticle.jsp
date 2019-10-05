@@ -60,11 +60,11 @@
             alert("标题和内容不能为空！")
         }else {
             $.ajax({
-                url: "/article_servlet?articleTitle="+articleTitle+"&articleWriter="+articleWriter,
+                url: "/article_servlet",
                 type: "post",
-                data: {articleContent : articleContent},
+                data: {articleContent : articleContent, articleTitle : articleTitle, articleWriter:articleWriter},
                 dataType: "html",
-                success: function (request) {
+                success: function (response) {
                     alert("上传成功")
                     window.location.href = "/index.jsp"
                 },
@@ -73,6 +73,8 @@
                 }
 
             })
+            // window.location.href = "/article_servlet?articleTitle="+articleTitle+"&articleWriter="+
+            //     articleWriter+"&articleContent="+articleContent;
         }
 
     })

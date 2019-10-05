@@ -33,14 +33,18 @@
         String userPwd = "";
 //        获取当前站点的所有cookie
         Cookie[] cookies = request.getCookies();
-        if (cookies[0] != null) {
-            for (Cookie foo : cookies) {
-                if ("userNum".equals(foo.getName())) {
-                    userNum = foo.getValue();
-                }else if ("userPwd".equals(foo.getName())) {
-                    userPwd = foo.getValue();
+        try {
+            if (cookies[0] != null) {
+                for (Cookie foo : cookies) {
+                    if ("userNum".equals(foo.getName())) {
+                        userNum = foo.getValue();
+                    }else if ("userPwd".equals(foo.getName())) {
+                        userPwd = foo.getValue();
+                    }
                 }
             }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     %>

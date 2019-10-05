@@ -8,7 +8,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Created by Administrator on 2019/8/25.
+ *
+ * @author Administrator
+ * @date 2019/8/25
  */
 public class ArticleDao {
     Article articleReturn = null;
@@ -49,7 +51,7 @@ public class ArticleDao {
             e.printStackTrace();
         }
         String sql = "insert into article(article_title, article_writer, article_content)" +
-                "values(?, ?, ?);";
+                "values (?, ?, ?);";
         try {
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, article.getArticleTitle());

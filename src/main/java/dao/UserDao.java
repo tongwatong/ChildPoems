@@ -10,7 +10,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Created by Administrator on 2019/8/22.
+ *
+ * @author Administrator
+ * @date 2019/8/22
  */
 public class UserDao {
     User userReturn = null;

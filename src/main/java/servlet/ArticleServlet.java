@@ -2,6 +2,7 @@ package servlet;
 
 import model.Article;
 import model.CurrentCount;
+import model.User;
 import service.ArticleAction;
 import service.ArticleService;
 
@@ -12,9 +13,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
- *
  * @author Administrator
  * @date 2019/8/25
  */
@@ -81,15 +82,6 @@ public class ArticleServlet extends HttpServlet {
         article = articleService.findArticleById(count);
         System.out.println(count);
 
-        if (article != null) {
-            StringBuilder stringBuilder = new StringBuilder();
-            for (String foo : article.getArticleContent().split("\n")) {
-                stringBuilder.append("<p>");
-                stringBuilder.append(foo + "<br />" + "</p>");
-            }
-            article.setArticleContent(String.valueOf(stringBuilder));
-        }
-
         try {
             request.getSession().setAttribute("article_info", article);
 
@@ -102,6 +94,7 @@ public class ArticleServlet extends HttpServlet {
 
 
     }
+
     public void getArticleAdd(HttpServletRequest request, HttpServletResponse response) {
         String articleTitle = request.getParameter("articleTitle");
         String articleWriter = request.getParameter("articleWriter");
@@ -110,17 +103,31 @@ public class ArticleServlet extends HttpServlet {
         System.out.println(articleWriter);
 
         Article article = new Article();
+        ArticleService articleService = new ArticleService();
+
         article.setArticleTitle(articleTitle);
         article.setArticleWriter(articleWriter);
         article.setArticleContent(articleContent);
 
-        new ArticleService().addArticle(article);
+        articleService.addArticle(article);
+
 
         try {
-            response.sendRedirect("index.jsp");
+            response.setCharacterEncoding("GBK");
+            PrintWriter out = response.getWriter();
+//            out.print("<script language='javascript'>alert('上传成功，跳转到主页。');</script>");
+//            out.print("<script>window.location.href='/index.jsp'</script>");
         } catch (IOException e) {
             e.printStackTrace();
         }
+//            try {
+//                request.getRequestDispatcher("/index.jsp").forward(request, response);
+//            } catch (ServletException e) {
+//                e.printStackTrace();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+
 
     }
 }
