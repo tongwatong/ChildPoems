@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Date;
+
 /**
  * Created by Administrator on 2019/8/25.
  */
@@ -39,5 +41,15 @@ public class Article {
 
     public void setArticleContent(String articleContent) {
         this.articleContent = articleContent;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "articleId=" + articleId +
+                ", articleTitle='" + articleTitle + '\'' +
+                ", articleWriter='" + articleWriter + '\'' +
+                ", articleContent='" + articleContent + '\'' +
+                '}';
     }
 }

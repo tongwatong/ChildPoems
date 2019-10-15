@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis的主配置文件-->
+<configuration>
+    <!-- 配置properties
+        可以在标签内部配置连接数据库的信息。也可以通过属性引用外部配置文件信息
+        resource属性：
+            用于指定配置文件的位置，是按照类路径的写法来写，并且必须存在于类路径下。
+        url属性：
+            是要求按照URL的写法来写地址
+     -->
+    <!-- 不使用resources属性，引入配置文件 -->
+<!--    <properties>-->
+<!--        <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/test"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value="123456"/>-->
+<!--    </properties>-->
+
+    <!-- 使用resources属性，引入配置文件 -->
+<!--    <properties resource="jdbcConfig.properties">-->
+
+    <!--    </properties>-->
+
+    <!-- 使用URL属性，引入配置文件 -->
+    <!-- 写起来比较麻烦，一般不用 -->
+<!--    <properties url="file:///E:\ideaProjects\mybatis02\src\main\resources\jdbcConfig.properties">-->
+
+<!--    </properties>-->
+    <!-- 配置环境 -->
+    <environments default="mysql">
+<!--        配置mysql的环境-->
+        <environment id="mysql">
+<!--            配置事物的类型-->
+            <transactionManager type="JDBC"></transactionManager>
+<!--            配置数据源（连接池）-->
+            <dataSource type="POOLED">
+<!--                配置连接数据库的4个基本信息-->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://39.106.29.149:3306/web"/>
+                <property name="username" value="root"/>
+                <property name="password" value="372930"/>
+
+                <!-- 使用properties标签的写法 -->
+<!--                <property name="driver" value="${driver}"/>-->
+<!--                <property name="url" value="${url}"/>-->
+<!--                <property name="username" value="${username}"/>-->
+<!--                <property name="password" value="${password}"/>-->
+
+                <!-- 如果使用resources属性，引入外部配置文件的话，配置文件有前缀，value中也要加上 -->
+<!--                                <property name="driver" value="${jdbc.driver}"/>-->
+<!--                                <property name="url" value="${jdbc.url}"/>-->
+<!--                                <property name="username" value="${jdbc.username}"/>-->
+<!--                                <property name="password" value="${jdbc.password}"/>-->
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    制定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件-->
+<!--    如果是用注解来配置的话，此处应该使用class属性指定被注解的dao全限定类名-->
+    <mappers>
+        <!-- 这里的URL属性同上 -->
+        <mapper resource="dao/IArticleDao.xml"></mapper>
+<!--        注解方式 使用注解方式前需要先把IUserDao.xml文件删除，否则出现存在异常-->
+<!--        <mapper class="com.qfnu.dao.IUserDao"></mapper>-->
+    </mappers>
+</configuration>

@@ -1,8 +1,7 @@
 package servlet;
 
 import model.Article;
-import model.CurrentCount;
-import model.User;
+import mybatis.Mybatis;
 import service.ArticleAction;
 import service.ArticleService;
 
@@ -42,6 +41,8 @@ public class ArticleServlet extends HttpServlet {
             case "article_add":
                 this.getArticleAdd(request, response);
                 break;
+            case "article_search":
+                this.findArticleByTitle(request, response);
         }
 //        System.out.println("article_servlet success");
     }
@@ -128,6 +129,24 @@ public class ArticleServlet extends HttpServlet {
 //                e.printStackTrace();
 //            }
 
+
+    }
+
+    public void findArticleByTitle(HttpServletRequest request, HttpServletResponse response) {
+        String articleTitle = request.getParameter("articleTitle");
+
+//        System.out.println(articleTitle);
+
+        article = new Mybatis().findArticleByTitle(articleTitle);
+//        System.out.println(article.getArticleContent());
+        request.getSession().setAttribute("article_info", article);
+        try {
+            request.getRequestDispatcher("/index.jsp").forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }

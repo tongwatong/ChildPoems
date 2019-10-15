@@ -9,8 +9,8 @@
 </head>
 <body>
 <h2>当前用户：${user_info.getUserName()}</h2>
-<form action="" method="get">
-    <input type="text">
+<form action="/search_servlet" method="get">
+    <input type="text" name="articleTitle">
     <input type="submit" value="搜索">
     <input type="button" value="上传" onclick="btnAddArticleClick()">
     <hr>

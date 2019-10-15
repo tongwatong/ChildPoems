@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.IArticleDao">
+    <!-- 在mybatis中，如果实体类中的属性名和数据库表中的字段名不一样的话，数据将会保存不上去，下面是解决方法-->
+    <!-- 配置查询结果的列名和实体类的属性名的对应关系-->
+    <resultMap id="articleId" type="model.Article">
+        <!-- 主键字段的对应 -->
+        <id property="articleId" column="article_id"></id>
+        <!-- 非主键字段的对应 -->
+        <result property="articleTitle" column="article_title"></result>
+        <result property="articleWriter" column="article_writer"></result>
+        <result property="articleContent" column="article_content"></result>
+    </resultMap>
+
+    <!-- 模糊查询 -->
+    <select id="findArticleByTitle" resultMap="articleId" parameterType="String">
+        select * from article where article_title like #{articleTitle} limit 1
+    </select>
+    <!--    &lt;!&ndash; 这种写法必须写成value，且为$符号，尽量不要采用这种方式&ndash;&gt;
+        <select id="findByName" resultType="com.qfnu.domain.User" parameterType="String">
+            select * from user where username like '%${value}%'
+        </select>-->
+</mapper>
